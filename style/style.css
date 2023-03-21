@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, "https://fonts.google.com/specimen/Outfit" ;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--light-gray);
+}
+:root {
+--White: hsl(0, 0%, 100%);
+--light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+
+.attribution {
+   height: 100%;
+  
+   
+}
+.qr-card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 23%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--White);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 150px;  
+}
+
+.attribution .qr-card img {
+    width: 12.5rem;
+    border-radius: 20px;
+    
+}
+
+.attribution .qr-card h3 {
+    font-weight: bolder;
+    color: var(--Dark-blue);
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.attribution .qr-card p {
+    color: var(--Grayish-blue);
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    margin-top: 10rem;
+    border-top: 1px solid var(--Grayish-blue);
+    
+}
+seashore744
+footer div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    display: flex;
+  
+
+}
+
+footer div a {
+    text-decoration: none;
+    color: var(--Grayish-blue);
+    padding-left: .5rem;
+    
+}
